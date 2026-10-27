@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM4Ljg3NTQ1NCIsInVzZXJfaWQiOiJmNGJmNjVkMi0zYjhiLTQ4NzUtOTAzYy1mZmFlZmU5NzA5ODgifQ.SSj6DYXJD0RLx0AUpTHxWWRe0NonUz_YQctqgik-RYE' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six task system throw by black available.","maxScore":59,"minScore":4,"description":"Technology town suggest decision beyond policy radio. Dream seat change window again available include.\nIt require view treat recent. Everything wish let might kind TV region.","estimatedTime":"1 weeks","previewFileId":"b2e7f6f2-b8cc-469f-a1f5-4ee80a2c89dd","createdByUserId":"f4bf65d2-3b8b-4875-903c-ffaefe970988"}'

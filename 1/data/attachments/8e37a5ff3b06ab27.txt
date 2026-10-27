@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM2Ljk1NjQyMyIsInVzZXJfaWQiOiI0NzY0YWM0NC0zNjRmLTQ0MTAtOTFiYy1lNjdhZmE5N2JhZjcifQ.39csr0RP3FDcgLB8Zd6x2VHbN00RNvfKI1n2pjxQgJM' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten score gun offer actually past need.","maxScore":97,"minScore":3,"description":"Plan second always nothing hope current. While off court all feeling. Artist wait choice down television number blue.","estimatedTime":"6 weeks","previewFileId":"f27cf7d5-92f6-4ba6-9c25-8208153bd35e","createdByUserId":"4764ac44-364f-4410-91bc-e67afa97baf7"}'

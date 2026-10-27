@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=7a43f10b-259e-43b4-aa52-1662344edf76
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=7a43f10b-259e-43b4-aa52-1662344edf76
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:44 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that id equals to 91fc081c-6986-45b0-9ec6-c5e05ceb9c15
+INFO     BASE_ASSERTIONS:base.py:38 Check that title equals to Fill staff seat.
+INFO     BASE_ASSERTIONS:base.py:38 Check that max_score equals to 84
+INFO     BASE_ASSERTIONS:base.py:38 Check that min_score equals to 18
+INFO     BASE_ASSERTIONS:base.py:38 Check that description equals to Loss include professor could safe well. Where interesting thing position condition room light else.
+INFO     BASE_ASSERTIONS:base.py:38 Check that estimated_time equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that id equals to c453900e-afe7-4322-8c37-384d67416e4d
+INFO     BASE_ASSERTIONS:base.py:38 Check that url equals to http://localhost:8000/static/tests/f3b43373-6198-445f-9d4b-5fd8b9a1f055.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that filename equals to f3b43373-6198-445f-9d4b-5fd8b9a1f055.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:42 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that id equals to 7a43f10b-259e-43b4-aa52-1662344edf76
+INFO     BASE_ASSERTIONS:base.py:38 Check that email equals to nmitchell@example.org
+INFO     BASE_ASSERTIONS:base.py:38 Check that last_name equals to Roberts
+INFO     BASE_ASSERTIONS:base.py:38 Check that first_name equals to Heather
+INFO     BASE_ASSERTIONS:base.py:38 Check that middle_name equals to Lisa
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM1LjcwMjg4MiIsInVzZXJfaWQiOiJhNDY3NjdiMi1iMmY0LTQ2MDMtOWQwZS1mMDQ1NzY0MjVkMGMifQ.zRrLJKwHdQn1mAD14gtTUom0hmWWH44VlbG7ewW2imo' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"More offer my sport what enter area.","maxScore":70,"minScore":28,"description":"Learn eat health. Parent general enter success point often see.\nConference truth business me movement. Difficult box manage ten assume.","estimatedTime":"3 weeks","previewFileId":"b756567e-d079-4f86-9b51-c1dc664eb091","createdByUserId":"a46767b2-b2f4-4603-9d0e-f04576425d0c"}'

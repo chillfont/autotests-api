@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/bd61471c-9838-46df-9777-2a41e73c1ecd
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/bd61471c-9838-46df-9777-2a41e73c1ecd
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that id equals to bd61471c-9838-46df-9777-2a41e73c1ecd
+INFO     BASE_ASSERTIONS:base.py:38 Check that title equals to Serious resource generation note will.
+INFO     BASE_ASSERTIONS:base.py:38 Check that course_id equals to 4d8b92bd-8bea-4bba-b433-2c1fb4070927
+INFO     BASE_ASSERTIONS:base.py:38 Check that max_score equals to 94
+INFO     BASE_ASSERTIONS:base.py:38 Check that min_score equals to 5
+INFO     BASE_ASSERTIONS:base.py:38 Check that order_index equals to 46
+INFO     BASE_ASSERTIONS:base.py:38 Check that description equals to Economic hour yet sort cover. Once thought read tax glass. Step meet term upon friend soldier.
+Fire others top change type. Financial second hair throw dark happy home.
+INFO     BASE_ASSERTIONS:base.py:38 Check that estimated_time equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

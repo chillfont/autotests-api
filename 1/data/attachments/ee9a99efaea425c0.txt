@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c3e106e1-61ce-4078-9b9b-c3a456ff31f5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM4LjE4MjA5NSIsInVzZXJfaWQiOiIwYjM0NDMzNC0yMjU2LTQ3MmYtYTg5Ni0zYjI2NWIwMjVlMTQifQ.53-Q86ITxRHckxK446jkkdTJu4cmyWUjzV3yShH6cEk' \
+  -H 'content-length: 173' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw maintain sometimes know deal.","maxScore":60,"minScore":11,"orderIndex":96,"description":"Sell over us individual enjoy election.","estimatedTime":"3 weeks"}'

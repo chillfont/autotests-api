@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM0LjU0NDU4NSIsInVzZXJfaWQiOiIxZjZmMTczNC1jNjBmLTQyZTMtODI3MC00OGMyYmFjZWQwOGUifQ.0haiZUV52I1Iyv_fk5BPj99_XMT-r9dAFt6nQOtjTuk' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last end newspaper between.","maxScore":67,"minScore":14,"description":"Personal wind rich agency some walk. Wide say although defense sort.\nHit challenge assume young. Offer cup whose knowledge whatever.","estimatedTime":"8 weeks","previewFileId":"812c207e-a0f1-4445-80f7-ca1a135db1e8","createdByUserId":"1f6f1734-c60f-42e3-8270-48c2baced08e"}'

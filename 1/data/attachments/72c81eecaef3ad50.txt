@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM2LjM3Mzk0MiIsInVzZXJfaWQiOiJkZjExMWI0Ni1jYjU5LTQxNjItOTM4NC1mZWYwY2VmYjgyMWEifQ.vKlfDD9CAycg6aNva_-px-vXwXjokdPTVprLUDTADJA' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Name picture smile why lose ever physical do.","maxScore":67,"minScore":18,"description":"Evidence myself food spend. Management hit memory activity dream girl center. Difference management race.\nShoulder customer build cost. Them over by now sea anyone.","estimatedTime":"8 weeks","previewFileId":"524ced9c-f4a5-4414-b354-e4be7cc253ba","createdByUserId":"df111b46-cb59-4162-9384-fef0cefb821a"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0c6643f5-263d-47c5-a81a-056c45d7624a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM1LjcwMjg4MiIsInVzZXJfaWQiOiJhNDY3NjdiMi1iMmY0LTQ2MDMtOWQwZS1mMDQ1NzY0MjVkMGMifQ.zRrLJKwHdQn1mAD14gtTUom0hmWWH44VlbG7ewW2imo' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Congress term quite identify evidence little.","maxScore":77,"minScore":21,"description":"Stay spring board both election. Relationship save garden stage our finally stand traditional.\nCamera develop pick get. Allow day at.","estimatedTime":"5 weeks"}'

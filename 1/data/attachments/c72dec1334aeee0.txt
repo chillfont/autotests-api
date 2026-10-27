@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that title equals to Last end newspaper between.
+INFO     BASE_ASSERTIONS:base.py:38 Check that max_score equals to 67
+INFO     BASE_ASSERTIONS:base.py:38 Check that min_score equals to 14
+INFO     BASE_ASSERTIONS:base.py:38 Check that description equals to Personal wind rich agency some walk. Wide say although defense sort.
+Hit challenge assume young. Offer cup whose knowledge whatever.
+INFO     BASE_ASSERTIONS:base.py:38 Check that estimated_time equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that preview_file_id equals to 812c207e-a0f1-4445-80f7-ca1a135db1e8
+INFO     BASE_ASSERTIONS:base.py:38 Check that created_by_user_id equals to 1f6f1734-c60f-42e3-8270-48c2baced08e
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

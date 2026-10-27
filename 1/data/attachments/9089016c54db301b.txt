@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjEzOjM4LjE4MjA5NSIsInVzZXJfaWQiOiIwYjM0NDMzNC0yMjU2LTQ3MmYtYTg5Ni0zYjI2NWIwMjVlMTQifQ.53-Q86ITxRHckxK446jkkdTJu4cmyWUjzV3yShH6cEk' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four stand national same raise whom.","maxScore":54,"minScore":23,"description":"Audience by look leader cup. Bad choose beat election able forget. Mr together trip other fly tough into.\nBank make positive choose understand challenge pressure statement.","estimatedTime":"2 weeks","previewFileId":"d7fa8edb-1ae1-4b92-ad26-17944f0c9f33","createdByUserId":"0b344334-2256-472f-a896-3b265b025e14"}'
