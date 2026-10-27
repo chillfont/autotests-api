@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5c3bd8c8-0674-4fa7-b199-85f936a50be1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjUwLjgwMzE2MCIsInVzZXJfaWQiOiI0ZDc0OGMyYS05Mzk3LTQ4NWQtYWYxOC02MWMzYjRiNGJiOTEifQ.BQ2wZRZX-g1i8ZjNExcdtARvaUYhHi2AGnad4Ruzymw' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Close who husband officer fish cold doctor condition.","maxScore":76,"minScore":20,"description":"Rest including party sense paper red direction nice. Top manager he hear authority Mr something government. Eat thought year give team mind likely.","estimatedTime":"3 weeks"}'

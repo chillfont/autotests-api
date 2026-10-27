@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjUzLjc2MzQxNiIsInVzZXJfaWQiOiJmYTgzNmI3OS0yZjg2LTQ2YTMtYjMzNC03MTgxZWY2ZTJiMDQifQ.F7XjOlpAntQQQwuXX1ebigH32DHdmsY8aRhsKpQ0B-Q' \
+  -H 'content-length: 239' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Approach east choose less.","courseId":"4d02ec27-190d-4eed-bf51-c95d569e04d5","maxScore":99,"minScore":15,"orderIndex":32,"description":"Door still generation choose feel. Outside property detail what.","estimatedTime":"6 weeks"}'

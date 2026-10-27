@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjUyLjU2MDYzNCIsInVzZXJfaWQiOiI0YWY2MzdjZC1mNjdmLTQ3YjAtOWZlZS0zMzMwMTgwMGI0YmQifQ.lNbV1BgRLZm5pWbYHhc_gizpjHN53vB6-m2d5S4BziM' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Team study write step clearly Congress.","maxScore":60,"minScore":24,"description":"American lay or simple where street. Rate build write up general seven ready.\nServe particular will ever account. Trade assume mention buy level back old technology. Thus of bag form rather.","estimatedTime":"1 weeks","previewFileId":"4488726e-e2d9-4bad-84f6-51ef92c3b95a","createdByUserId":"4af637cd-f67f-47b0-9fee-33301800b4bd"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/df2edb65-dc5c-42bb-931d-e29f64fba85e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjUzLjQ4ODA2MyIsInVzZXJfaWQiOiJlMjQxOTk0MS1jNjkzLTRmYzYtOTg2OS03OTgyODc5ZjhlMmQifQ.VnPOaQGeyOFYUhqIJ3lhTB41z9ON8Yi-WRncV7VznV0' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Look build form nothing new carry.","maxScore":81,"minScore":2,"orderIndex":91,"description":"All forget behavior generation article left. Point officer ten administration together mention time. Not true actually fight fight start individual.\nFederal will stage. Record not share power area.","estimatedTime":"3 weeks"}'

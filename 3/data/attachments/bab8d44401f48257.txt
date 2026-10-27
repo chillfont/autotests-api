@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjUwLjgwMzE2MCIsInVzZXJfaWQiOiI0ZDc0OGMyYS05Mzk3LTQ4NWQtYWYxOC02MWMzYjRiNGJiOTEifQ.BQ2wZRZX-g1i8ZjNExcdtARvaUYhHi2AGnad4Ruzymw' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw career beat machine.","maxScore":78,"minScore":25,"description":"Simply hotel region outside conference. Animal purpose very view scientist charge others. Shake leave type.\nTurn focus when all work approach. Simple already over remember.","estimatedTime":"8 weeks","previewFileId":"e69187f4-6d5b-40c1-ab39-76ef10b81021","createdByUserId":"4d748c2a-9397-485d-af18-61c3b4b4bb91"}'

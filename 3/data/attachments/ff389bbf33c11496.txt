@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjUzLjQ4ODA2MyIsInVzZXJfaWQiOiJlMjQxOTk0MS1jNjkzLTRmYzYtOTg2OS03OTgyODc5ZjhlMmQifQ.VnPOaQGeyOFYUhqIJ3lhTB41z9ON8Yi-WRncV7VznV0' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical apply enough heavy relate leader shoulder.","maxScore":76,"minScore":22,"description":"Suggest finish the life agreement ground.\nBelieve another team. Ready six seven. Our local different station nothing week.\nSize you number.\nCentral little those yeah.","estimatedTime":"4 weeks","previewFileId":"d5fa0256-ce88-4c47-be90-f552de08c3b5","createdByUserId":"e2419941-c693-4fc6-9869-7982879f8e2d"}'

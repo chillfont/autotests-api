@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjMwOjQ5LjYyNjE4MSIsInVzZXJfaWQiOiIyZjQyYzU0Ni03YTkzLTRkODQtOGZiMy01OWM3N2Y3MTcyYmUifQ.rRnSE92VLx1TFekjKle1RC0QC-ripAeBxzhRGzbvAQY' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil far weight scene seven hospital wife.","maxScore":88,"minScore":2,"description":"Amount nice rate draw tell easy operation. Recent end any world miss you story kind. Key certainly peace apply lose.","estimatedTime":"1 weeks","previewFileId":"37d7b720-5848-4d96-922b-86fd6f427563","createdByUserId":"2f42c546-7a93-4d84-8fb3-59c77f7172be"}'
