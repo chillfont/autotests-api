@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjUxOjU2LjkzMzU1MyIsInVzZXJfaWQiOiI3ZDQ3ZTI1Ni04YjEzLTRhMTItOThkMi1jOWViMDBhM2U0MTcifQ.BaDhJyF5C-lTO_lAEr1SI74K-msvkSzmhfO_SdQ2p98' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Challenge measure personal five front charge tax.","maxScore":79,"minScore":20,"description":"Seek reduce key. Think start picture company. Ok large federal. Stage play sister if soon show positive.\nOwn especially once such behavior ever. Writer get why. Research far television art.","estimatedTime":"4 weeks","previewFileId":"a250698d-1cf2-48f6-8846-ab1a700f6ba3","createdByUserId":"7d47e256-8b13-4a12-98d2-c9eb00a3e417"}'

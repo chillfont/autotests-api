@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fbb3da46-0407-4284-9471-2b5785d4c334' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjUxOjU0Ljk0NDczNiIsInVzZXJfaWQiOiIxYzg0NDQyNy02ZGMyLTQ3ZjgtYWI0NC1jY2U3YWQ2MjM3MWEifQ.mussIAQZn4S8yz5CRJ5EvrYLPHox_NGe8MGi7fc-2FI' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch speak meet this share whose party.","maxScore":94,"minScore":9,"description":"Perhaps consider among beyond. Table while purpose before decide science break.\nSouthern help each with commercial operation tell yes. Can might run. Her once official peace second future.","estimatedTime":"6 weeks"}'

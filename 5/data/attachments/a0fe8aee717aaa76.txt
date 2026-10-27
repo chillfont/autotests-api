@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that title equals to Resource past read we child instead hit.
+INFO     BASE_ASSERTIONS:base.py:38 Check that max_score equals to 66
+INFO     BASE_ASSERTIONS:base.py:38 Check that min_score equals to 22
+INFO     BASE_ASSERTIONS:base.py:38 Check that description equals to Despite school I. If military head company him eight Congress discussion. Security reality camera form light modern.
+INFO     BASE_ASSERTIONS:base.py:38 Check that estimated_time equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that preview_file_id equals to debea631-ec2d-4824-b1dc-70cb526f04b3
+INFO     BASE_ASSERTIONS:base.py:38 Check that created_by_user_id equals to a91c4667-f667-4f2e-9b86-57417b93845a
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

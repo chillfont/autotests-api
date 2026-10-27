@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjUxOjU2LjM2MzE2MiIsInVzZXJfaWQiOiI3MmYwYjU5Yi1jZDg0LTQ4ZWYtYTc2OC02MWE4OGU3OWRlYjcifQ.LFyjTPB11m30UoIEtZ8Egy64NWO6cNxjwNVaJCOHLBY' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill always doctor figure.","maxScore":88,"minScore":22,"description":"East wish behind religious study near use. Bad its what. Physical thus three production share through.\nYear face power trial matter trial provide action. Enough about nation above beat more goal.","estimatedTime":"4 weeks","previewFileId":"c0989987-6f7c-47c9-bb63-123cc4542965","createdByUserId":"72f0b59b-cd84-48ef-a768-61a88e79deb7"}'

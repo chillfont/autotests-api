@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjUxOjU0LjAyODYzNCIsInVzZXJfaWQiOiJhOTFjNDY2Ny1mNjY3LTRmMmUtOWI4Ni01NzQxN2I5Mzg0NWEifQ.WJCOjqm27Clil1IfoX9OvTMKAUw1BKdzna6Sr0SyXNk' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Resource past read we child instead hit.","maxScore":66,"minScore":22,"description":"Despite school I. If military head company him eight Congress discussion. Security reality camera form light modern.","estimatedTime":"3 weeks","previewFileId":"debea631-ec2d-4824-b1dc-70cb526f04b3","createdByUserId":"a91c4667-f667-4f2e-9b86-57417b93845a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjUxOjU0LjQ5NjM0MCIsInVzZXJfaWQiOiI5NjVmY2QzZS1jYzg5LTQ5NWMtOGEzNS03YjE5ODZkZWQ4ODUifQ.4n3IOYfoaxmdB29kpdY1Z2FqFixoe2OkasSDhxagFmk' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry computer security big soon from.","maxScore":98,"minScore":15,"description":"Assume be deal police across it size degree. Improve stop direction with nor music return.","estimatedTime":"3 weeks","previewFileId":"631ea01f-98af-42fb-a94c-2139a8036937","createdByUserId":"965fcd3e-cc89-495c-8a35-7b1986ded885"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjUxOjU1LjQzNjYwOCIsInVzZXJfaWQiOiIyMDhkNjI2Zi1hYWEwLTQ4MTktYjcyYy0wMjBmMzE2ODUzMzUifQ.neobqi4AMn_kg01AkkATaDrFskrE7pS36Jb4NqUNieg' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary soldier true play.","maxScore":63,"minScore":28,"description":"Lot room turn important design see son. Point actually window and discover. Movie wind site happen bed.\nFire head idea kind produce. Cover skin white actually baby Republican soon.","estimatedTime":"8 weeks","previewFileId":"fb6dc5be-e294-4145-8f07-d865fa0e9a0a","createdByUserId":"208d626f-aaa0-4819-b72c-020f31685335"}'
