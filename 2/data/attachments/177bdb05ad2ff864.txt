@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE3LjgxOTk5MiIsInVzZXJfaWQiOiJjNzA5YWViNi0yOTAzLTQzMzctYmU2Yi0yZjk4NTBkOWIwZmEifQ.UjCEVs8RuIVOKv9n0xhIErl7WeRruePCwdDRJBNRh8E' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film explain realize better way.","courseId":"779ab3ed-911d-4a31-8d4d-e1ea47550f12","maxScore":74,"minScore":26,"orderIndex":12,"description":"Project create bar choice enter. Power long box drop about scene. Tv personal plan traditional.\nWay participant artist. Green worry pressure late adult.","estimatedTime":"7 weeks"}'

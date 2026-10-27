@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE1LjQ3MDkxMCIsInVzZXJfaWQiOiI4NTE4MDRkNC1lZjlhLTRmYjUtODgyMC1kOTU3OGU4YmM3ZDQifQ.VBI5Ntjia1KLdmPIfMa1xMUIaj_MK2fSixjnYWDFfOM' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recognize case possible where oil over.","maxScore":65,"minScore":21,"description":"Around girl maintain down. Meeting set listen common have.\nLive be peace institution. Five better successful painting the my once. Call require order stay.","estimatedTime":"6 weeks","previewFileId":"b4a4661b-4354-4669-9ad1-98304e5522a2","createdByUserId":"851804d4-ef9a-4fb5-8820-d9578e8bc7d4"}'

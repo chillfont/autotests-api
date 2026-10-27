@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE5Ljk3NTUzMSIsInVzZXJfaWQiOiJiMWU4YTU4YS00MjEwLTQxMWItOTczOS0zZGJlYjQxZWZmZjYifQ.dUjuMAyezCbH6L9gcz9XBlTVocM9Qg_oFz2T1HEd1k4' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even stock fish sort sit process education.","maxScore":98,"minScore":30,"description":"Little who spring clear product fund policy. Almost deep develop partner enough upon.\nA financial recent after. Over reach life continue.","estimatedTime":"7 weeks","previewFileId":"1d75cef6-7764-4083-8d85-8541f9d19cfa","createdByUserId":"b1e8a58a-4210-411b-9739-3dbeb41efff6"}'

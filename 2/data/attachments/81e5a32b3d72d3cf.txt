@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9742d518-6807-4ef3-9f8a-1625b0c8dfbe' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE2Ljg4MzA0OSIsInVzZXJfaWQiOiJjMjg1N2RhYy1mMDJiLTQ3YjUtODI2Yy04NjAwZTYwODA1NzUifQ.NCK2bIhiAWVIF9bnc668Fk7lcAQEMaSs3bxuYVn3QYo' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight often building.","maxScore":97,"minScore":21,"description":"Seek try already shoulder least. Throughout easy big politics.\nProduct different maintain instead. City analysis happen option ground sit however. Set rock so laugh increase building.","estimatedTime":"10 weeks"}'

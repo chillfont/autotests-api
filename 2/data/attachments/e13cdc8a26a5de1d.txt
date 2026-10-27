@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE5LjI4MDU0NCIsInVzZXJfaWQiOiI5OWI3YmQyNi0wMTM3LTQyZjktYWFmNy05Y2E3Y2FmZjY5YTkifQ.QYzaFiaI6VWEzrbBdxeoKJuakpTVBO0sQclCvtk4jBM' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever town everything.","maxScore":97,"minScore":24,"description":"Class interesting business myself. Mouth eight care significant let one.\nThrough among sing tell blood third. Thousand foot concern responsibility think.","estimatedTime":"10 weeks","previewFileId":"ce48417a-861a-4822-83f7-848827b5d437","createdByUserId":"99b7bd26-0137-42f9-aaf7-9ca7caff69a9"}'

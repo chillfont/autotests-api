@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that title equals to Recognize case possible where oil over.
+INFO     BASE_ASSERTIONS:base.py:38 Check that max_score equals to 65
+INFO     BASE_ASSERTIONS:base.py:38 Check that min_score equals to 21
+INFO     BASE_ASSERTIONS:base.py:38 Check that description equals to Around girl maintain down. Meeting set listen common have.
+Live be peace institution. Five better successful painting the my once. Call require order stay.
+INFO     BASE_ASSERTIONS:base.py:38 Check that estimated_time equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that preview_file_id equals to b4a4661b-4354-4669-9ad1-98304e5522a2
+INFO     BASE_ASSERTIONS:base.py:38 Check that created_by_user_id equals to 851804d4-ef9a-4fb5-8820-d9578e8bc7d4
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

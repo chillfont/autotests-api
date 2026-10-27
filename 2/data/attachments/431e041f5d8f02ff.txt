@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE4LjA5MzU4NiIsInVzZXJfaWQiOiI4YTZlMDhlYi1mZDViLTRiNTUtYTgyMy1mZmE3NmE4MTZiODkifQ.7_0haKl_sME_WcEYhYzBJIHXFFY9qpvqI5d4ss3asAQ' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start citizen ok class.","maxScore":98,"minScore":4,"description":"Along loss item significant born. Yeah center represent building theory.\nApply community cause garden read floor dream. End bill analysis he.","estimatedTime":"6 weeks","previewFileId":"c1189298-8cad-4442-87d7-61285bc42d39","createdByUserId":"8a6e08eb-fd5b-4b55-a823-ffa76a816b89"}'

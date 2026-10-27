@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE2LjYwODI3MCIsInVzZXJfaWQiOiJlNzBmMzg2MC0zY2Q5LTQ0NzgtOWM5OC0xZGYzYTcwZDg0MjAifQ.YD9dmP-hQFP3IlLseFybCifooDbmMW0fBBnbzdHk3rc' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall try popular.","maxScore":84,"minScore":25,"description":"Drive human husband from line. Role race camera perhaps chance across. Style sing agreement military appear firm star.\nThrough then car organization. Stage work energy pay too.","estimatedTime":"3 weeks","previewFileId":"53f842ef-2139-487d-9cdc-16acaa130f22","createdByUserId":"e70f3860-3cd9-4478-9c98-1df3a70d8420"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE3LjgxOTk5MiIsInVzZXJfaWQiOiJjNzA5YWViNi0yOTAzLTQzMzctYmU2Yi0yZjk4NTBkOWIwZmEifQ.UjCEVs8RuIVOKv9n0xhIErl7WeRruePCwdDRJBNRh8E' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead apply apply industry bag.","maxScore":75,"minScore":7,"description":"Unit call peace against floor cut. Claim election sit fight cell money.\nMajor also event good than someone. Race successful would trial service manage southern. Month boy quality grow would car.","estimatedTime":"2 weeks","previewFileId":"42bfcda9-8a6d-45b4-a3e0-dff83111f2fc","createdByUserId":"c709aeb6-2903-4337-be6b-2f9850d9b0fa"}'

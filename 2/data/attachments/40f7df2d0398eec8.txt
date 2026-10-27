@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI3VDE2OjI1OjE5LjAwNjc5OCIsInVzZXJfaWQiOiIzMWFiZTk4Ni0wNDk5LTQzNTUtYTQ3OS1mY2FiOTc5OTdlYTQifQ.J0ITh2DflA9YRG-UHQJM3ORrM605PD4Ol4R3Oe-8_eA' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong attorney drug economic argue at like.","maxScore":94,"minScore":13,"description":"Speech design card bad him teacher soldier. Only office represent trial. Talk mention contain center stay.","estimatedTime":"8 weeks","previewFileId":"b19acf95-40ba-447e-9d51-fc8369c79064","createdByUserId":"31abe986-0499-4355-a479-fcab97997ea4"}'
