@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/29f00d35-2e4a-48a5-b081-466528f87272' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU0LjU5NjAyOCIsInVzZXJfaWQiOiI0ZWFhMTI4My1kMDNlLTQ5MzYtYjM0OC01MWJkMDlhYWRkNTkifQ.z_F6-PBFTgyea2G8BI8nmK-9w7DzwvRBi-9ZEEt5R7k' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Write through line blue fall itself establish.","maxScore":75,"minScore":8,"description":"Financial reality special teach matter people increase. Away question against take inside because. Whatever lot hand local defense business.","estimatedTime":"5 weeks"}'

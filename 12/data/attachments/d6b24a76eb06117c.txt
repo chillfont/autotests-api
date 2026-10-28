@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU2LjU5OTk4NCIsInVzZXJfaWQiOiIzZmNjMjQ4ZC0yODZkLTQ3ODQtODQwNC1jY2Q1OTM5NDEwZmUifQ.x_5PadTDNcKn2RUPovcSlqGdKhvF3SC_vSqd0_9BrJs' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six cold try account.","maxScore":61,"minScore":12,"description":"Would there daughter sell million book what.\nFive happy ability large candidate. Possible say eye.\nWhy month shoulder cut population. Model usually voice ground. Expect he house together.","estimatedTime":"10 weeks","previewFileId":"e7f16cf2-5bf1-49ba-8d1e-fd03b3866ff9","createdByUserId":"3fcc248d-286d-4784-8404-ccd5939410fe"}'

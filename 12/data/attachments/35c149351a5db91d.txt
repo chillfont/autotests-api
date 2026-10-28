@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU2LjgzNTg1NiIsInVzZXJfaWQiOiI5OTgyNzhkZi05MGZmLTQzMjgtYjRiYS0zNjc0YWZiODVkNjgifQ.dDA2E4TERzeZWmdj8Mcd8HXN8seYZaH3-ZKM_thhEZw' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm account hour degree others.","maxScore":82,"minScore":23,"description":"Discover return official new.\nNear region line from. Really discover or poor benefit ago. Almost instead Democrat easy particular up where other. Look that protect.","estimatedTime":"1 weeks","previewFileId":"9ff28971-f5ab-4c72-9302-671c589dbfd4","createdByUserId":"998278df-90ff-4328-b4ba-3674afb85d68"}'

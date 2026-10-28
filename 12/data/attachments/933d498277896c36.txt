@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU0LjU5NjAyOCIsInVzZXJfaWQiOiI0ZWFhMTI4My1kMDNlLTQ5MzYtYjM0OC01MWJkMDlhYWRkNTkifQ.z_F6-PBFTgyea2G8BI8nmK-9w7DzwvRBi-9ZEEt5R7k' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future goal seek you.","maxScore":82,"minScore":21,"description":"Nearly poor make level live issue trouble increase.\nFar energy minute stock necessary stay. Quickly face black none short interview return decision.","estimatedTime":"6 weeks","previewFileId":"0e4aa251-6082-44c2-b18d-33e58ffa8841","createdByUserId":"4eaa1283-d03e-4936-b348-51bd09aadd59"}'

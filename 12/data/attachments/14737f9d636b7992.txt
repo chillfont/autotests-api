@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU3Ljk0MzAyNCIsInVzZXJfaWQiOiI3M2RkZTY5Yi0zMDg5LTQ0MmItODI1MC1mYzdhMGYwZjQ5ZDgifQ.ke0rqiR5ybRAk-zjH9oAALWls7uTs9Oi3DhkJ30MVDw' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear right without series unit.","courseId":"7c071266-36cf-4ac1-a9df-398a883bcf47","maxScore":50,"minScore":4,"orderIndex":77,"description":"Win war responsibility kitchen democratic age area training. Despite must newspaper building boy we.\nThere instead pass free. Court image bar leader issue. Bed fall special.","estimatedTime":"4 weeks"}'

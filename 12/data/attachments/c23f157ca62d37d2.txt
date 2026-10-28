@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU2LjgzNTg1NiIsInVzZXJfaWQiOiI5OTgyNzhkZi05MGZmLTQzMjgtYjRiYS0zNjc0YWZiODVkNjgifQ.dDA2E4TERzeZWmdj8Mcd8HXN8seYZaH3-ZKM_thhEZw' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even team white per easy often.","courseId":"21ab6b3d-3fe0-4928-8e73-d69800f810d1","maxScore":98,"minScore":25,"orderIndex":20,"description":"Economic behavior rest.\nAvoid soldier certainly hear. Fund whether act. President pick reflect where. Watch total create.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjUzLjM2MDQ4NiIsInVzZXJfaWQiOiIxMjUyMjA4OC1mNTc2LTQzYWYtOGIwZi01MTQxYzNlOWYzMWUifQ.71fbWHNDgL0h_hm8mbw3TfVjQTGScRW97B5elgW1hVs' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even particular year send second.","maxScore":58,"minScore":2,"description":"Environment every in ability order floor among.\nWithout specific condition later. Behavior resource fact account.","estimatedTime":"2 weeks","previewFileId":"4f73ec34-8c28-4095-adf6-607ab1b4eb9d","createdByUserId":"12522088-f576-43af-8b0f-5141c3e9f31e"}'

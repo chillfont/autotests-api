@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjM2OjU3Ljk0MzAyNCIsInVzZXJfaWQiOiI3M2RkZTY5Yi0zMDg5LTQ0MmItODI1MC1mYzdhMGYwZjQ5ZDgifQ.ke0rqiR5ybRAk-zjH9oAALWls7uTs9Oi3DhkJ30MVDw' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attention white service letter me.","maxScore":65,"minScore":4,"description":"Want already spend blood somebody. Responsibility right week may camera thus ask. Oil senior weight couple school but idea while.","estimatedTime":"4 weeks","previewFileId":"55a9d3d3-7113-48ba-991a-7f711ffb68ed","createdByUserId":"73dde69b-3089-442b-8250-fc7a0f0f49d8"}'
