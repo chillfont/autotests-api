@@ -80,6 +80,7 @@ jobs:
           path: allure-results
 
   publish-report:
+    if: always()
     runs-on: ubuntu-latest
     needs: run-tests
 
