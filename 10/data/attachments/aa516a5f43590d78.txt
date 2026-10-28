@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAyLjg1NDQ1OSIsInVzZXJfaWQiOiI4Yzc0OTNkNy1jYmZjLTQyZTEtYmYyNC04YzE3M2U3NzFjMzcifQ.fMgSLr8kOnhDz8ReTJRkXyD-Sn_Kfv6OOtZxFLkMk0w' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk treatment late consumer way painting.","maxScore":58,"minScore":30,"description":"Gas exactly fact marriage special laugh you. Boy material actually raise parent concern seem.\nBlue small system south organization team. Myself involve church nothing environmental need suffer baby.","estimatedTime":"9 weeks","previewFileId":"2055ac90-2f4a-46d5-8776-e4adf21d9878","createdByUserId":"8c7493d7-cbfc-42e1-bf24-8c173e771c37"}'

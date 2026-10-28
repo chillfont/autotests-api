@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAyLjg1NDQ1OSIsInVzZXJfaWQiOiI4Yzc0OTNkNy1jYmZjLTQyZTEtYmYyNC04YzE3M2U3NzFjMzcifQ.fMgSLr8kOnhDz8ReTJRkXyD-Sn_Kfv6OOtZxFLkMk0w' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure red team reality foreign probably note.","courseId":"0122b474-62eb-497a-8068-8bcd08ed3689","maxScore":65,"minScore":17,"orderIndex":47,"description":"Share important task government yourself understand else know. Both another send return strong sort.\nBy meeting travel necessary middle treat minute. Beat part act parent when final.","estimatedTime":"6 weeks"}'

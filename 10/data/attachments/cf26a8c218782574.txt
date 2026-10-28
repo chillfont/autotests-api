@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a500ba09-9e76-4324-9bde-b441b3a4d9a1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAwLjY3NjE2OCIsInVzZXJfaWQiOiIwZTczY2UwMS00OTAyLTRmMjMtOWNiYS1hODdhZTViYTk2N2IifQ.40JQWq-5TjnI4KHw9eBuc0x_XHoMc6P1H-X91OB5pmE' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exist benefit director visit leader there remember.","maxScore":66,"minScore":2,"description":"Test he difference black science Democrat Democrat.\nAttack especially official open himself. Attack company say stock. Industry small rock social leader half only four.","estimatedTime":"6 weeks"}'

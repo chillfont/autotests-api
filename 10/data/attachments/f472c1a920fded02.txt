@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAwLjY3NjE2OCIsInVzZXJfaWQiOiIwZTczY2UwMS00OTAyLTRmMjMtOWNiYS1hODdhZTViYTk2N2IifQ.40JQWq-5TjnI4KHw9eBuc0x_XHoMc6P1H-X91OB5pmE' \
+  -H 'content-length: 450' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final raise world house interesting himself maintain carry.","maxScore":80,"minScore":1,"description":"Kind resource whom agency forget. Rather onto thousand for voice size.\nResearch TV without water set. Imagine election it prove box role important. Public work possible choice dark health because.","estimatedTime":"1 weeks","previewFileId":"de078aef-0d76-4a84-89a0-93ba5919563c","createdByUserId":"0e73ce01-4902-4f23-9cba-a87ae5ba967b"}'

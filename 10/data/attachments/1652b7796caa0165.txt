@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAxLjk1NTY3MSIsInVzZXJfaWQiOiJlMGZkYzdjMC0yNjVmLTRmNzUtYTcwNS05NTMzMTc2NDI3ZDQifQ.1hBvR79JbXK_fM8kOnhs9WSEMXOwmGlO0J-4G0IwAxk' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help station think listen hotel.","maxScore":84,"minScore":23,"description":"Letter along born buy recent. Politics table return from high according.","estimatedTime":"7 weeks","previewFileId":"986d8ad2-8a1f-4db4-bbfe-fbf153b319e0","createdByUserId":"e0fdc7c0-265f-4f75-a705-9533176427d4"}'

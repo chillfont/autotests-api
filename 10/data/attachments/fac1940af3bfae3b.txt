@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAxLjk1NTY3MSIsInVzZXJfaWQiOiJlMGZkYzdjMC0yNjVmLTRmNzUtYTcwNS05NTMzMTc2NDI3ZDQifQ.1hBvR79JbXK_fM8kOnhs9WSEMXOwmGlO0J-4G0IwAxk' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden hard economy short find shoulder.","courseId":"bcc1d8b0-ece5-4dd2-9dbe-186d4b29f07a","maxScore":83,"minScore":22,"orderIndex":13,"description":"Hit close institution worry ten player arm. Other leave place area system sure half. Right citizen improve capital chance.","estimatedTime":"6 weeks"}'

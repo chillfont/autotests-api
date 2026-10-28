@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAyLjM5NTEyNCIsInVzZXJfaWQiOiJlZDllNTBmNC1hYjUzLTQ0NmQtYjMzNy05NTgzNjg1MGUwN2UifQ.-weLiRFagI8DsbGwiiJO4MmPKYvIuWRmGH7_9E-og1Y' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Away citizen movie everybody company.","maxScore":93,"minScore":3,"description":"Stand wonder only everyone sit alone. Poor friend one keep agent course single serious. Section interesting everybody rock artist sign.","estimatedTime":"1 weeks","previewFileId":"1e30e6ac-9b47-4ca9-a2a4-4177d678dba8","createdByUserId":"ed9e50f4-ab53-446d-b337-95836850e07e"}'

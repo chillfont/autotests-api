@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAxLjExNDM3OCIsInVzZXJfaWQiOiJkZDU1MDQzMy0yZWIwLTQ1OWQtYTIyYS0yMTVjMTVlZTQwNTYifQ.2fR_XoaKM0eBAPabozHsx0Q_KWkLlIJWZy5mR46iTzI' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Somebody past weight remain president put.","courseId":"97d763b6-cc7c-4da5-a1e4-2ac16edef965","maxScore":69,"minScore":27,"orderIndex":14,"description":"Hour never establish pass resource. Head whether hospital art product single heavy while. Happen camera shoulder data.\nThose hear carry look either. Loss popular same us card.","estimatedTime":"5 weeks"}'

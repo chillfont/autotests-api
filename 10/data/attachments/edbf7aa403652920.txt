@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDA0OjIzOjAxLjExNDM3OCIsInVzZXJfaWQiOiJkZDU1MDQzMy0yZWIwLTQ1OWQtYTIyYS0yMTVjMTVlZTQwNTYifQ.2fR_XoaKM0eBAPabozHsx0Q_KWkLlIJWZy5mR46iTzI' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group information offer behavior.","maxScore":100,"minScore":19,"description":"Late keep space lawyer ability television.\nUp job world own. Learn left whole hot check.\nDetermine listen agency assume blood. Audience capital budget box best person new scientist.","estimatedTime":"4 weeks","previewFileId":"c39fb025-785f-484f-a71d-49407577a3f8","createdByUserId":"dd550433-2eb0-459d-a22a-215c15ee4056"}'
