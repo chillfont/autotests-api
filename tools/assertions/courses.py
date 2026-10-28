@@ -1,8 +1,7 @@
 import allure
 
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, \
-    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema
-from pydantic_basics import CourseSchema
+    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema, CourseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
